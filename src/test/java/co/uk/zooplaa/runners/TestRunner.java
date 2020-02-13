@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
         features = {"src/test/java/co/uk/zooplaa/features"},
         plugin = {"pretty","json:target/report.json","de.monochromata.cucumber.report.PrettyReports:target/pretty-cucumber"},
-        glue = {"co/uk/zooplaa/stepDefinitions"}
+        glue = {"co/uk/zooplaa/hooks","co/uk/zooplaa/stepDefinitions"}
 
 )
 
