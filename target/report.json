@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-02-13T05:01:36.083Z",
+        "start_timestamp": "2020-05-04T03:03:03.009Z",
         "before": [
           {
             "result": {
-              "duration": 9937489000,
+              "duration": 6167574800,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 20,
+        "line": 21,
         "name": "User can successfully search for a property",
         "description": "",
         "id": "search-for-property-for-sale;user-can-successfully-search-for-a-property;;2",
         "after": [
           {
             "result": {
-              "duration": 670169600,
+              "duration": 1262821400,
               "status": "passed"
             },
             "match": {
@@ -156,336 +156,32 @@
               "status": "passed"
             },
             "line": 15,
-            "name": "all the property within the selected location and price range are displayed",
+            "name": "all the \"\u003cProperty\u003e\" within the selected \"\u003cLocation\u003e\" are displayed",
             "match": {
-              "location": "co.uk.zooplaa.stepDefinitions.ForSaleSearchSteps.all_the_property_within_the_selected_location_and_price_range_are_displayed()"
+              "arguments": [
+                {
+                  "val": "\"\u003cProperty\u003e\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"\u003cLocation\u003e\"",
+                  "offset": 41
+                }
+              ],
+              "location": "co.uk.zooplaa.stepDefinitions.ForSaleSearchSteps.allTheWithinTheSelectedAreDisplayed(java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-02-13T05:01:46.759Z",
-        "before": [
-          {
-            "result": {
-              "duration": 9335116500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "co.uk.zooplaa.hooks.Hook.setUp()"
-            }
-          }
-        ],
-        "line": 21,
-        "name": "User can successfully search for a property",
-        "description": "",
-        "id": "search-for-property-for-sale;user-can-successfully-search-for-a-property;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 675099100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "co.uk.zooplaa.hooks.Hook.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I navigate to Zoopla.co.uk",
-            "match": {
-              "location": "co.uk.zooplaa.stepDefinitions.ForSaleSearchSteps.i_navigate_to_Zoopla_co_uk()"
-            },
-            "keyword": "Given "
           },
           {
             "result": {
               "status": "passed"
             },
-            "line": 8,
-            "name": "the To Buy tab is highlighted",
+            "line": 16,
+            "name": "I click on any",
             "match": {
-              "location": "co.uk.zooplaa.stepDefinitions.ForSaleSearchSteps.the_To_Buy_tab_is_highlighted()"
+              "location": "co.uk.zooplaa.stepDefinitions.ForSaleSearchSteps.iClickOnAny()"
             },
             "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I enter a \"Liverpool\" in the search bar",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Liverpool\"",
-                  "offset": 10
-                }
-              ],
-              "location": "co.uk.zooplaa.stepDefinitions.ForSaleSearchSteps.i_enter_a_in_the_search_bar(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I select \"600000\" from the Min dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"600000\"",
-                  "offset": 9
-                }
-              ],
-              "location": "co.uk.zooplaa.stepDefinitions.ForSaleSearchSteps.i_select_from_the_Min_dropdown(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I select \"1000000\" from the Max dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"1000000\"",
-                  "offset": 9
-                }
-              ],
-              "location": "co.uk.zooplaa.stepDefinitions.ForSaleSearchSteps.i_select_from_the_Max_dropdown(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I select \"House\" from the Property dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"House\"",
-                  "offset": 9
-                }
-              ],
-              "location": "co.uk.zooplaa.stepDefinitions.ForSaleSearchSteps.i_select_from_the_Property_dropdown(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I select \"7\" from the rooms dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"7\"",
-                  "offset": 9
-                }
-              ],
-              "location": "co.uk.zooplaa.stepDefinitions.ForSaleSearchSteps.i_select_from_the_rooms_dropdown(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "I click on the Search button",
-            "match": {
-              "location": "co.uk.zooplaa.stepDefinitions.ForSaleSearchSteps.i_click_on_the_Search_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "all the property within the selected location and price range are displayed",
-            "match": {
-              "location": "co.uk.zooplaa.stepDefinitions.ForSaleSearchSteps.all_the_property_within_the_selected_location_and_price_range_are_displayed()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-02-13T05:01:56.769Z",
-        "before": [
-          {
-            "result": {
-              "duration": 9324365100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "co.uk.zooplaa.hooks.Hook.setUp()"
-            }
-          }
-        ],
-        "line": 22,
-        "name": "User can successfully search for a property",
-        "description": "",
-        "id": "search-for-property-for-sale;user-can-successfully-search-for-a-property;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 675405400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "co.uk.zooplaa.hooks.Hook.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I navigate to Zoopla.co.uk",
-            "match": {
-              "location": "co.uk.zooplaa.stepDefinitions.ForSaleSearchSteps.i_navigate_to_Zoopla_co_uk()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "the To Buy tab is highlighted",
-            "match": {
-              "location": "co.uk.zooplaa.stepDefinitions.ForSaleSearchSteps.the_To_Buy_tab_is_highlighted()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I enter a \"M40\" in the search bar",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"M40\"",
-                  "offset": 10
-                }
-              ],
-              "location": "co.uk.zooplaa.stepDefinitions.ForSaleSearchSteps.i_enter_a_in_the_search_bar(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I select \"200000\" from the Min dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"200000\"",
-                  "offset": 9
-                }
-              ],
-              "location": "co.uk.zooplaa.stepDefinitions.ForSaleSearchSteps.i_select_from_the_Min_dropdown(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I select \"800000\" from the Max dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"800000\"",
-                  "offset": 9
-                }
-              ],
-              "location": "co.uk.zooplaa.stepDefinitions.ForSaleSearchSteps.i_select_from_the_Max_dropdown(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 997200,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I select \"Farms\" from the Property dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Farms\"",
-                  "offset": 9
-                }
-              ],
-              "location": "co.uk.zooplaa.stepDefinitions.ForSaleSearchSteps.i_select_from_the_Property_dropdown(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I select \"3\" from the rooms dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"3\"",
-                  "offset": 9
-                }
-              ],
-              "location": "co.uk.zooplaa.stepDefinitions.ForSaleSearchSteps.i_select_from_the_rooms_dropdown(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "I click on the Search button",
-            "match": {
-              "location": "co.uk.zooplaa.stepDefinitions.ForSaleSearchSteps.i_click_on_the_Search_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "all the property within the selected location and price range are displayed",
-            "match": {
-              "location": "co.uk.zooplaa.stepDefinitions.ForSaleSearchSteps.all_the_property_within_the_selected_location_and_price_range_are_displayed()"
-            },
-            "keyword": "Then "
           }
         ]
       }

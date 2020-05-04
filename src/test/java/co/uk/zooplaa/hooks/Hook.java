@@ -5,11 +5,13 @@ import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
 public class Hook extends Browser
+
 {
+    public String defaultBrowser  = "Chrome";
     @Before
     public void setUp()
     {
-        launchBrowser("Chrome");
+        launchBrowser(defaultBrowser);
     }
     @After
     public void tearDown()

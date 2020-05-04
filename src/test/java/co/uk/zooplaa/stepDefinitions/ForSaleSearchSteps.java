@@ -1,5 +1,6 @@
 package co.uk.zooplaa.stepDefinitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -47,13 +48,13 @@ public class ForSaleSearchSteps
 
     }
 
-    @Then("all the property within the selected location and price range are displayed")
-    public void all_the_property_within_the_selected_location_and_price_range_are_displayed() {
+
+    @Then("all the {string} within the selected {string} are displayed")
+    public void allTheWithinTheSelectedAreDisplayed(String arg0, String arg1) {
 
     }
 
-
-
-
-
+    @And("I click on any")
+    public void iClickOnAny() {
+    }
 }
