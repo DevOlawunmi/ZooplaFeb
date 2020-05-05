@@ -3,38 +3,15 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-05-04T03:03:03.009Z",
-        "before": [
-          {
-            "result": {
-              "duration": 6167574800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "co.uk.zooplaa.hooks.Hook.setUp()"
-            }
-          }
-        ],
-        "line": 21,
-        "name": "User can successfully search for a property",
+        "line": 6,
+        "name": "",
         "description": "",
-        "id": "search-for-property-for-sale;user-can-successfully-search-for-a-property;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 1262821400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "co.uk.zooplaa.hooks.Hook.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
+        "type": "background",
+        "keyword": "Background",
         "steps": [
           {
             "result": {
+              "duration": 1454996500,
               "status": "passed"
             },
             "line": 7,
@@ -49,17 +26,50 @@
               "status": "passed"
             },
             "line": 8,
-            "name": "the To Buy tab is highlighted",
+            "name": "I accept all cookies",
             "match": {
-              "location": "co.uk.zooplaa.stepDefinitions.ForSaleSearchSteps.the_To_Buy_tab_is_highlighted()"
+              "location": "co.uk.zooplaa.stepDefinitions.ForSaleSearchSteps.iAcceptAllCookies()"
             },
             "keyword": "And "
-          },
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-05T03:30:40.381Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5953964600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.zooplaa.hooks.Hook.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "User can successfully search for a property",
+        "description": "",
+        "id": "search-for-property-for-sale;user-can-successfully-search-for-a-property;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 710333900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.zooplaa.hooks.Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
           {
             "result": {
               "status": "passed"
             },
-            "line": 9,
+            "line": 11,
             "name": "I enter a \"ST4 7DW\" in the search bar",
             "match": {
               "arguments": [
@@ -74,9 +84,10 @@
           },
           {
             "result": {
+              "duration": 996900,
               "status": "passed"
             },
-            "line": 10,
+            "line": 12,
             "name": "I select \"50000\" from the Min dropdown",
             "match": {
               "arguments": [
@@ -93,7 +104,7 @@
             "result": {
               "status": "passed"
             },
-            "line": 11,
+            "line": 13,
             "name": "I select \"400000\" from the Max dropdown",
             "match": {
               "arguments": [
@@ -110,7 +121,7 @@
             "result": {
               "status": "passed"
             },
-            "line": 12,
+            "line": 14,
             "name": "I select \"Flat\" from the Property dropdown",
             "match": {
               "arguments": [
@@ -127,7 +138,7 @@
             "result": {
               "status": "passed"
             },
-            "line": 13,
+            "line": 15,
             "name": "I select \"3\" from the rooms dropdown",
             "match": {
               "arguments": [
@@ -144,7 +155,7 @@
             "result": {
               "status": "passed"
             },
-            "line": 14,
+            "line": 16,
             "name": "I click on the Search button",
             "match": {
               "location": "co.uk.zooplaa.stepDefinitions.ForSaleSearchSteps.i_click_on_the_Search_button()"
@@ -155,7 +166,7 @@
             "result": {
               "status": "passed"
             },
-            "line": 15,
+            "line": 17,
             "name": "all the \"\u003cProperty\u003e\" within the selected \"\u003cLocation\u003e\" are displayed",
             "match": {
               "arguments": [
@@ -174,9 +185,10 @@
           },
           {
             "result": {
+              "duration": 997300,
               "status": "passed"
             },
-            "line": 16,
+            "line": 18,
             "name": "I click on any",
             "match": {
               "location": "co.uk.zooplaa.stepDefinitions.ForSaleSearchSteps.iClickOnAny()"
