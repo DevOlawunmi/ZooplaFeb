@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9edc3330-3e5a-49c1-b648-e45b30679f04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/zooplaa/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zooplaa/stepDefinitions/ForSaleSearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zooplaa/stepDefinitions/ForSaleSearchSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zooplaa/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zooplaa/pages/BasePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588649121986</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="URL successfully launched">
+      <created>1588649476220</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588649476220</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -138,17 +143,18 @@
     <MESSAGE value="Browser successfully launched" />
     <MESSAGE value="Hook updated" />
     <MESSAGE value="Feature updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature updated" />
+    <MESSAGE value="URL successfully launched" />
+    <option name="LAST_COMMIT_MESSAGE" value="URL successfully launched" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581561512917">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="466" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1581561512917" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1588649121466">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1588649475616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588649121466" />
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588649475616" />
     <state width="1493" height="222" key="GridCell.Tab.0.bottom" timestamp="1588562663191">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -169,10 +175,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="422" y="347" key="ReplaceDuplicatesPrompt/0.0.1536.824@0.0.1536.824" timestamp="1581564327979" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1588649123981">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1588649478973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588649123981" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588649478973" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1581733618544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
