@@ -3,9 +3,11 @@ Feature: Search for Property for sale
   I want the ability to search a property
   So I can have more information about searched property
 
-  Scenario Outline: User can successfully search for a property
+  Background:
     Given I navigate to Zoopla.co.uk
-    And the To Buy tab is highlighted
+    And I accept all cookies
+
+  Scenario Outline: User can successfully search for a property
     When I enter a "<UKLocation>" in the search bar
     And I select "<MinPrice>" from the Min dropdown
     And I select "<MaxPrice>" from the Max dropdown

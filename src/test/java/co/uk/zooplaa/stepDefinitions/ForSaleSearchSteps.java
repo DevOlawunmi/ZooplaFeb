@@ -57,4 +57,9 @@ public class ForSaleSearchSteps
     @And("I click on any")
     public void iClickOnAny() {
     }
+
+    @And("I accept all cookies")
+    public void iAcceptAllCookies() {
+
+    }
 }
